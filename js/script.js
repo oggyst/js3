@@ -26,11 +26,9 @@ function run(max , min)
         {
             arrColumnNumbers [i] = (Math.floor(Math.random() * (max - intArrayAverage) + intArrayAverage));
         }
-        document.write ('</tr>');
         for (var i = 0; i < intNumberOfColumns; i++) 
         {
             intArrayAverage=0;
-            document.write ('<tr>')
             arrMatrix[i] = [];
             for (var j = 0; j < intNumberOfRows; j++)
             {
