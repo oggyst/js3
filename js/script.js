@@ -90,13 +90,13 @@ function run(max , min)
             {
                 arrMatrix [i][j] = arrRowNumbers[i] * arrColumnNumbers[j];
                 intArrayAverage = intArrayAverage +  arrMatrix [i][j];
-                document.write('<td> a' + i + '*b' + j + ' = ' +arrMatrix [i][j] + '</td>');
+                document.write('<td>' + arrMatrix [i][j] + '</td>');
                 if (arrMatrix[i][j] % 2 == 0)
                 {
                     intCounter++;
                 }
             }
-            document.write ('<td> In this column there is' + intCounter + 'even numbers');
+            document.write ('<td> In this column there is ' + intCounter + ' even numbers');
             document.write('</tr>');
         }
     }
